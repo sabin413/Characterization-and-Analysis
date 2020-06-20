@@ -1,5 +1,6 @@
 #Author: SA, June 2020
-#this code and finds solvent density autocorrelation 
+#this code combined with plot_sol_autocorr finds solvent density autocorrelation 
+
 import numpy as np
 import pandas as pd
 
