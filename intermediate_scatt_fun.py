@@ -1,3 +1,4 @@
+#Author: SA, June 2020
 #Computes self-intermediate scattering function
 import numpy as np
 import pandas as pd
