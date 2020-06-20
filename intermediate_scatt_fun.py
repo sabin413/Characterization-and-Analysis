@@ -1,14 +1,17 @@
-#Computes intermediate scattering function
+#Computes self-intermediate scattering function
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_pickle('50trajectory_data_unit_tau.pkl')#1 column for each snapshot - each element of a column is a list of informations about an atom
+df = pd.read_pickle('50trajectory_data_unit_tau.pkl')#1 column for each snapshot - each element of a
+#column is a list of informations about an atom
 #print(df.head())
-print(df.shape)#no of atoms by no of snapshots
+#print(df.shape)#no of atoms by no of snapshots
+
 no_of_atoms = df.shape[0]
 no_of_snapshots = df.shape[1]
 #print(df.iloc[:,0])
-time_step = 0.001*200
+
+time_step = 0.001*200#comes from traj data
 def get_list(data, atom_index):#obtains a row from a dataframe named data
 	position_list = data.iloc[atom_index].values
 	position_list1 = [i[2:] for i in position_list]	
