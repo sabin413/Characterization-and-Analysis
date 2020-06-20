@@ -1,3 +1,5 @@
+# Author: SA, June 2020
+# Checks if the particle-velocity follows MB distribution, needs velocity data from simulation
 import numpy as np
 import pandas as pd
 import random
