@@ -1,5 +1,5 @@
-# finds the density of monomers and chain-ends across xy planes by using several last time-steps of a single trajectory and plots & curve fitting
-
+#Author: SA, June 2020
+#this code and finds solvent density autocorrelation 
 import numpy as np
 import pandas as pd
 
