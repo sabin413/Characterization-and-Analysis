@@ -1,3 +1,5 @@
+#Author: SA, June 2020
+#Calculates solvent concentration autocorrelation and plots
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
