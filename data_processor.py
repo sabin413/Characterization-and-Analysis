@@ -1,12 +1,12 @@
 # Author: SA, October 2019
-# reads lammps data, multiple snapshots are stored as values of a dictionary - keys: time, values: data; stored as a pandas dataframe
-
-# prints the no. of atoms from we are interested in from each snapshot
+# reads lammps data, multiple snapshots are stored as values of a dictionary - keys: time, values: data -
+# stored as a pandas dataframe
+# this is useful when we want to compute dynamic quantities
 
 import numpy as np
 import pandas as pd
 
-#get atom_no and starting tim-step
+#get atom_no and starting time-step
 f = open('40sbrush.lammpstrj','r')
 big_string = f.read()
 big_list0 = big_string.split("ITEM: TIMESTEP")
