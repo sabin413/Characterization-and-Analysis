@@ -1,3 +1,5 @@
+#Author: SA, July 2020
+#Calculates wait-time and flight-time distribution (particles between two attractive walls)
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
